@@ -22,9 +22,11 @@ class Database {
   }
 
   mongo() {
-    this.mongoConnection = mongoose.connect(
-      "mongodb://localhost:27017/gobarber",
-      { useNewUrlParser: true, useFindAndModify: true }
+    this.mongoConnection = mongoose.connect(      
+      //user mode ready_only
+      "mongodb://gobarber:gobarber1@ds011409.mlab.com:11409/gobarber",
+      //"mongodb://localhost:27017/gobarber",
+      { useNewUrlParser: true, useFindAndModify: true, useUnifiedTopology: true }
     );
   }
 }
