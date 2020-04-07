@@ -29,6 +29,7 @@ routes.get("/providers", ProviderController.index);
 
 routes.post("/appointments", AppointmentController.store);
 routes.get("/appointments", AppointmentController.index);
+routes.get("/apointments", AppointmentController.delete);
 
 routes.get("/schedule", ScheduleController.index);
 
