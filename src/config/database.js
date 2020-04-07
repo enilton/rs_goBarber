@@ -1,4 +1,4 @@
-/*module.exports = {
+/* module.exports = {
   dialect: "postgres",
   host: "hansken.db.elephantsql.com",
   username: "nwzwyewa",
@@ -9,7 +9,7 @@
     underscored: true,
     underscoredAll: true,
   },
-};*/
+}; */
 
 module.exports = {
   dialect: "postgres",
